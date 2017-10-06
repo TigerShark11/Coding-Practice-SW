@@ -1,0 +1,40 @@
+first_name = "Saket"
+last_name = "Waghmode" 
+age = 42
+format_example = "Hi, my name is Saket Waghmode. I am 42 years old."
+age = 42 
+
+print(format_example.format(first_name,last_name,age))
+print(age.isdecimal())
+print(first_name.isalpha())
+print(age== "42")
+print(age== 42)
+
+first_name = "Saket"
+   
+   last_name = "Waghmode"
+   
+   age = 42
+   
+   
+   format_example = "Hi, my name is Saket Waghmode. I am 42 years old."
+   
+   age = 42
+   
+   print(format_example.format(first_name,last_name,age))
+Hi, my name is Saket Waghmode. I am 42 years old.
+   
+   print(age.isdecimal())
+Traceback (most recent call last):
+  File "python", line 1, in <module>
+AttributeError: 'int' object has no attribute 'isdecimal'
+   
+   print(first_name.isalpha())
+True
+   
+   print(age== "42")
+False
+   
+   print(age== 42)
+True
+   
