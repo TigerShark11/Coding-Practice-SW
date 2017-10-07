@@ -38,3 +38,68 @@ False
    print(age== 42)
 True
    
+print('Welcome to the world of recruitment data extraction.'.find('t'))
+#print('Welcome to the world of recruitment data extraction.'.index('on'))
+print('Welcome to the world of recruitment data extraction.'[8:])
+#print('Welcome to the world of recruitment data extraction.'[49:51])
+#print('Welcome to the world of recruitment data extraction.'[39:49])
+#print('Welcome to the world of recruitment data extraction.'[19:])
+#print('Welcome to the world of recruitment data extraction.'.index('extraction'))
+print('Welcome to the world of recruitment data extraction.'.find('x'))
+print('Saket')
+print('Saket Waghmode.'.find('W'))
+print('Saket Waghmode graduated from Texas Tech University.'[18:29])
+print('Saket Waghmode loves Sharks.'[11:])
+print('Saket Waghmode loves Sharks.'[:9])
+print("Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.")
+format_poem = "Beautiful is better than ugly. Explicit is better than implicit."
+print(format_poem)
+format_poem = "Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated"
+print(format_poem)
+
+print('Welcome to the world of recruitment data extraction.'.find('t'))
+8
+   
+   print('Welcome to the world of recruitment data extraction .'.index('on'))
+49
+   
+   print('Welcome to the world of recruitment data extraction.'[8:])
+to the world of recruitment data extraction.
+   
+   print('Welcome to the world of recruitment data extraction.'[49:51])
+on
+   
+   print('Welcome to the world of recruitment data extraction.'[39:49])
+a extracti
+   
+   print('Welcome to the world of recruitment data extraction.'[19:])
+d of recruitment data extraction.
+   
+   print('Welcome to the world of recruitment data extraction.'.index('extraction'))
+41
+   
+   print('Welcome to the world of recruitment data extraction.'.find('x'))
+42
+   
+   print('Saket')
+Saket
+   
+   print('Saket Waghmode.'.find('W'))
+6
+   print('Saket Waghmode graduated from Texas Tech University.'[18:29])
+duated from
+   print('Saket Waghmode loves Sharks.'[11:])
+ode loves Sharks.
+   print('Saket Waghmode loves Sharks.'[:9])
+Saket Wag
+   print("Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.")
+Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.
+   print("Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.")
+Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.
+   format_poem = "Beautiful is better than ugly. Explicit is better than implicit."
+   print(format_poem)
+Beautiful is better than ugly. Explicit is better than implicit.
+   format_poem = "Beautiful us better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated."
+   
+   print(format_poem)
+Beautiful us better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.
