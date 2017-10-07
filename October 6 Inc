@@ -103,3 +103,96 @@ Beautiful is better than ugly. Explicit is better than implicit.
    
    print(format_poem)
 Beautiful us better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.
+
+random_strings =['(123), '456', '7890']
+print('-'.join(random_strings))
+list_of_schools = ['Sathaye College', 'Marietta College', 'Texas Tech University', 'Prep Bootcamp']
+print(list_of_schools)
+undergrad_school_info = []
+undergrad_school_info = ['Marietta College','Marietta, OH', 'Undergrad', 'BA', 'Psychology', 2002, 2004, 3.4]
+print(undergrad_school_info)
+print(type(undergrad_school_info))
+list('Texas Tech')
+list('Marietta College')
+list(range(10))
+grad_school_info = ['Texas Tech University', "Lubbock, Texas", 'Grad', 'MS', 'Biological Sciences', 2005, 2007]
+grad_school_info.append(3.5)
+print(grad_school_info)
+Saket_education = {"Sathaye College": "Political Science", 
+'Marietta College': 'Psychology', 
+'Texas Tech University': 'Biology'}
+print(Saket_education)
+print(Saket_education["Sathaye College"])
+print(Saket_education["Marietta College"])
+print(Saket_education["Texas Tech University"])
+linkedin_url ='www.linkedin.com/in/saket-waghmode-b332bb12'
+print(linkedin_url)
+
+random_strings =['(123)', '456', '7890']
+   print('-'.join(random_strings))
+(123)-456-7890
+   list_of_schools =['Sathaye College', 'Marietta College', 'Texas Tech University', 'Prep Bootcamp']
+   print(list_of_schools)
+['Sathaye College', 'Marietta College', 'Texas Tech University', 'Prep Bootcamp']
+   undergrad_school_info =[]
+   undergrad_school_info =['Marietta College', 'Marietta, OH', 'Undergrad', 'BA', 'Psychology', 2002, 2004, 3.4]
+   print(undergrad_school_info)
+['Marietta College', 'Marietta, OH', 'Undergrad', 'BA', 'Psychology', 2002, 2004, 3.4]
+   print(type(undergrad_school_info))
+<class 'list'>
+   list('Texas Tech')
+=> ['T', 'e', 'x', 'a', 's', ' ', 'T', 'e', 'c', 'h']
+   list('Marietta College')
+=> ['M', 'a', 'r', 'i', 'e', 't', 't', 'a', ' ', 'C', 'o', 'l', 'l', 'e', 'g', 'e']
+   list(range(10))
+=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   grad_school_info =['Texas Tech University', 'Lubbock, Texas', 'Grad', 'MS', 'Biological Sciences', 2005, 2007]
+   grad_school_info.append(3.5)
+   print(grad_school_info)
+['Texas Tech University', 'Lubbock, Texas', 'Grad', 'MS', 'Biological Sciences', 2005, 2007, 3.5]
+Saket_education ={"Sathaye College": "Political Science", "Marietta College": "Psychology", "Texas Tech University": "Biology"}
+   print(Saket_education)
+{'Sathaye College': 'Political Science', 'Marietta College': 'Psychology', 'Texas Tech University': 'Biology'}
+print(Saket_education["Sathaye College"])
+Political Science
+   print(Saket_education["Marietta College"])
+Psychology
+   print (Saket_education["Texas Tech University"])
+Biology
+   linkedin_url ='www.linkedin.com/in/saket-waghmode-b332bb12'
+   print(linkedin_url)
+www.linkedin.com/in/saket-waghmode-b332bb12
+   linkedin_url.split('//')
+=> ['www.linkedin.com/in/saket-waghmode-b332bb12']
+
+age = 42
+    print(age) 
+    age += 1 
+    print(age)
+    age += 5 
+    print(age)
+    age =42
+   print(age)
+42
+   age += 1 
+   print(age)
+43
+   age += 5
+   print(age)
+48
+
+Saket_education = {"Sathaye College": "Political Science", 
+'Marietta College': 'Psychology', 
+'Texas Tech University': 'Biology'}
+print(len(Saket_education))
+num_education(Saket_education)
+
+Saket_education ={"Sathaye College": "Political Science", "Marietta College": "Psychology", "Texas Tech University": "Biology"}
+print(dir(Saket_education))
+['__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+   print(Saket_education.fromkeys)
+<built-in method fromkeys of type object at 0x7f703476a340>
+   print(len(Saket_education))
+3
+   num_education(Saket_education)
+3
